@@ -30,5 +30,5 @@ Este proyecto consiste en una pequeña aplicación Android que permite convertir
 
 
 [Imagen de RecyclerView](images/inicio.png)
-[Imagen de RecyclerView](images/cambio.png)
+[Imagen de cambio](images/cambio.png)
 
