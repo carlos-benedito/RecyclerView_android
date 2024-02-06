@@ -1,25 +1,34 @@
-# Proyecto RecyclerView Android de Carlos
+# Conversor de Divisas Android con RecyclerView
 
-¡Bienvenido al repositorio del Proyecto RecyclerView de Carlos!
+¡Bienvenido al Conversor de Divisas Android con RecyclerView!
 
 ## Descripción
 
-Este repositorio contiene un proyecto de muestra que utiliza RecyclerView en Android. El proyecto ha sido desarrollado por Carlos como parte de su aprendizaje y práctica en el desarrollo de aplicaciones móviles.
+Este proyecto consiste en una pequeña aplicación Android que permite convertir divisas utilizando un RecyclerView. La actividad principal incluye los siguientes elementos:
 
-## Contenido
+- Un campo EditText para introducir una cantidad en euros.
+- Un RecyclerView con su adaptador para mostrar las divisas disponibles.
+- Un elemento XML (`row_divisa.xml`) para definir el diseño de cada fila del RecyclerView.
+- Una lista de strings en `arrays.xml` que contiene las divisas (por ejemplo, AUD, USD) junto con sus valores de cambio respecto al euro.
+- Un método para seleccionar un elemento del RecyclerView al hacer clic.
+- Un botón para realizar la conversión de la divisa seleccionada y un TextView para mostrar el resultado.
+- Un Switch para aplicar un descuento a los clientes VIP.
 
-- **app**: Contiene el código fuente de la aplicación Android.
-- **screenshots**: Capturas de pantalla de la aplicación.
-- **docs**: Documentación adicional relacionada con el proyecto.
+## Instalación
 
-## Funcionalidades
+1. Clona este repositorio: `https://github.com/carlos-benedito/RecyclerView_android.git`.
+2. Abre el proyecto en Android Studio.
+3. Compila y ejecuta la aplicación en un emulador o dispositivo Android.
 
-- Implementación de RecyclerView.
-- Adición y eliminación dinámica de elementos en la lista.
-- Personalización de elementos de la lista.
+## Uso
 
-## Contacto
+1. Abre la aplicación en tu dispositivo Android.
+2. Introduce la cantidad en euros en el campo EditText.
+3. Selecciona la divisa de destino haciendo clic en el RecyclerView.
+4. Si eres cliente VIP, activa el Switch para aplicar el descuento.
+5. Haz clic en el botón de conversión para obtener el resultado.
 
-Si deseas contactar a Carlos, puedes enviar un correo electrónico a [carlos.benedito1012000@gmail.com](mailto:carlos.benedito1012000@gmail.com).
 
-¡Gracias por visitar el repositorio!
+[Imagen de RecyclerView](images/inicio.png)
+[Imagen de RecyclerView](images/cambio.png)
+
